@@ -1,0 +1,43 @@
+#logoempresatelalogin{
+	width: 180px; height: 180px;
+	position: absolute;top: 166px;left: 204px;
+
+}
+#tituloacesso{
+	position: absolute;top: 111px;left: 551px;
+	font-size: 45px;font-family: 'Sarabun', sans-serif; color: #0000FF;
+}
+#cxloginacesso{
+	width: 455px; height: 211px; position: absolute;top: 255px; left: 469px;
+	background-color: #4169E1; border-radius: 45px;
+}
+
+#labltxtpr{
+	position: absolute;top: 55px;
+	left: 55px; font-size: 35px;
+}
+#cmploginpr{
+	position: absolute;top: 65px; left:155px;font-size: 21px;
+}
+#labltxtseg{
+	position: absolute;top: 110px;
+	left: 55px; font-size: 35px;
+}
+#campsenhlg{
+	position: absolute;top: 114px; left: 155px;font-size: 21px;
+
+}
+
+#btnacessar{
+	position: absolute;top: 233px;left: 322px;font-size: 21px;
+	background-color: black; color: white;
+}
+
+#nomedesenvolvedorsystem{
+	position: absolute;top: 200px;
+	left: 44px; color: red;
+}
+#btncriarlogin{
+	position: absolute;top: 233px; left: 422px; font-size:21px;
+	background-color: black; color: white;width: 180px;
+}
