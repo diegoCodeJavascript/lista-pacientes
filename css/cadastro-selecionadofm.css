@@ -1,0 +1,36 @@
+body{
+	background-color:#363636;
+}
+#tituloselecao{
+	position: absolute;top: 170px;
+	left: 255px;font-size: 32px;color: white;
+}
+
+#logotelaselecao{
+	position: absolute;top: 51px;left: 588px; background-color: white;
+	border-radius: 22px;width: 150px; height: 150px;
+}
+#cxformlancarchegada{
+	position: absolute;top: 255px;width: 665px;
+	background-color:#DCDCDC;  left: 255px;
+
+}
+th{
+	font-size: 26px; color: red;
+}
+#btngravar{font-size: 21px; position: absolute;left: 450px; top: 111px;}
+/*Modal chegada */
+#cxmodalt{
+   position: absolute;top: 355px; width: 459px;
+   height:180px;background-color:#DCDCDC; left: 355px;
+}
+#ilusmodalc{
+	width: 80px; position: absolute; left: 40px;
+}
+#titlmda{
+	position: absolute;top: 28px; left: 170px;
+}
+#btnfehcarmd{
+	position: absolute;top: 10px;left: 370px;width: 80px;
+}
+/*Modal chegada */
