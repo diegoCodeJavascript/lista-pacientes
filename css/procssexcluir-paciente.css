@@ -1,0 +1,23 @@
+body{
+	background-color:#363636;
+}
+
+#cxalertmsg{
+	position: absolute;top: 200px;left: 422px;
+	width: 555px; height: 305px;background-color: #DCDCDC;
+}
+#ilusalert{
+	width: 85px; position: absolute;top: 50px;left: 80px;
+}
+#msgbancotit{
+	position: absolute;top: 30px;font-size: 32px;left: 200px;
+}
+#msgstatusprocesso{position: absolute;top: 111px;
+	left: 188px; font-size: 29px;
+
+
+}
+#btnfcmd{
+	position: absolute;left: 211px;left: 455px;
+	width: 80px;
+}
