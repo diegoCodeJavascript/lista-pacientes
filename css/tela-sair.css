@@ -1,0 +1,18 @@
+body{
+	background-color:#363636;
+}
+#cxalertmsg{
+	position: absolute;top: 255px; left: 455px;
+	background-color: #DCDCDC;width: 399px; height: 188px;
+}
+#ilustnotifc{
+	position: absolute;top: 55px;width: 70px;left: 16px;
+}
+#textinformn{
+	position: absolute;top: 25px;font-size: 25px;
+	left: 89px;
+}
+#telaloginbtn{
+	position: absolute;top: 99px;
+	left: 155px;font-size: 21px;
+}
