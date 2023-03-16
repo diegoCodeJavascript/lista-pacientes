@@ -1,0 +1,37 @@
+body{
+background-color:#363636;
+}
+#logolccomparecimento{
+	position: absolute;top: 51px;left: 778px; background-color: white;
+	border-radius: 22px;width: 150px; height: 150px;
+}
+#titlefunc{position: absolute;top: 211px;left: 455px;
+	color: white;font-size: 28px;
+
+}
+#cxformpeslancarchegada{
+	position: absolute;top: 300px;left: 455px;
+	font-size: 25px; background-color: #DCDCDC;width: 860px;
+}
+th{
+	font-size: 20px;
+}
+input{
+	width: 255px;
+}
+#btnpsdados{
+	position: absolute;top: 80px;font-size: 21px;
+	left: 655px;
+}
+#tabresultadocx{
+	position: absolute;top: 455px; left: 455px;
+	width:800px;
+	overflow-y: auto;height: 111px; font-size: 20px;
+}
+#tabpesquisadds{
+	border: 3px double; position: absolute;left: 0px;width: 788px;
+	background-color:#DCDCDC;
+}
+#treslinhasd:nth-child(even){
+background-color:#8B0000; color: white;
+}
