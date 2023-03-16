@@ -116,18 +116,18 @@
   		<tr>
   			<th>Cartão do convênio:</th><td><input type="text" name="cardconvenio"></td><th>*Cartão SUS:</th><td><input type="text" name="cardsus" required></td>
   		</tr>
-       <tr>
-       	<th>Celular do Paciente:</th><td><input type="text" name="telpaciente"></td><th>CEP:</th><td><input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
-               onblur="pesquisacep(this.value);"  /></td>
+       <tr><th>N° prontuário:</th><td><input type="text" name="numeropront"></td>
+       	<th>Celular do Paciente:</th><td><input type="text" name="telpaciente"></td>
        </tr>
-     <tr>
-     	<th>Rua:</th><td><input name="rua" type="text" id="rua"></td><th>Bairro:</th><td><input name="bairro" type="text" id="bairro"></td>
+     <tr><th>CEP:</th><td><input name="cep" type="text" id="cep" value="" size="10" maxlength="9"
+               onblur="pesquisacep(this.value);"  /></td>
+     	<th>Rua:</th><td><input name="rua" type="text" id="rua"></td>
      </tr>
      <tr>
-     	<th>End N°</th><td><input type="text" name="numeroend"/></td><th>Cidade:</th><td><input name="cidade" type="text" id="cidade">
+     	<th>End N°</th><td><input type="text" name="numeroend"/></td><th>Bairro:</th><td><input name="bairro" type="text" id="bairro"></td>
      </tr>
      <tr>
-     	</td><th>Estado:</th><td><input name="uf" type="text" id="uf"></td>
+     	</td><th>Estado:</th><td><input name="uf" type="text" id="uf"></td><th>Cidade:</th><td><input name="cidade" type="text" id="cidade">
      </tr>
   	</table>
 <button id="btngravarcadastro" type="submit">Gravar Dados</button>
@@ -142,6 +142,7 @@
      $datans = mysqli_escape_string($con,$_POST["datans"]);
      $cardsus = mysqli_escape_string($con,$_POST["cardsus"]);
      $carconvenio = mysqli_escape_string($con,$_POST["cardconvenio"]);
+     $numeroprontuario = mysqli_escape_string($con,$_POST["numeropront"]);
      $telpaciente = mysqli_escape_string($con,$_POST["telpaciente"]);
      $cep = mysqli_escape_string($con,$_POST["cep"]);
      $rua = mysqli_escape_string($con,$_POST["rua"]);
@@ -155,6 +156,7 @@
      $datanas_js = htmlspecialchars($datans);
      $carsus_js = htmlspecialchars($cardsus);
      $carconvenio_js = htmlspecialchars($carconvenio);
+     $prontuario_js = htmlspecialchars($numeroprontuario);
      $telpaciente_js = htmlspecialchars($telpaciente);
      $cep_js = htmlspecialchars($cep);
      $rua_js = htmlspecialchars($rua);
@@ -167,6 +169,7 @@
      $datanas_espaco = trim($datanas_js);
      $carsus_espaco = trim($carsus_js);
      $carconvenio_espaco = trim($carconvenio_js);
+     $prontuarioespaco = trim($prontuario_js);
      $telpaciente_espaco = trim($telpaciente_js);
      $cep_espaco = trim($cep_js);
      $rua_espaco = trim($rua_js);
@@ -214,7 +217,7 @@
                      echo"<button onclick='history.back();' id='btnpreenchernvm'>Preencher novamente</button>";
                   print"</div>";
          else:
-          $sqlInserir = "INSERT INTO pacientes VALUES(Null,'$nomeCrip','$datanasCrip','Sem informação','$cartaosusCrip','$cartaoconvenioCrip','$celularCrip','$cepCrip','$ruaCrip','$bairroCrip','$cidadeMn','$estadoMn','$numerocasa_espaco')";
+          $sqlInserir = "INSERT INTO pacientes VALUES(Null,'$nomeCrip','$datanasCrip','$prontuarioespaco','$cartaosusCrip','$cartaoconvenioCrip','$celularCrip','$cepCrip','$ruaCrip','$bairroCrip','$cidadeMn','$estadoMn','$numerocasa_espaco')";
       $rescadastrar =  mysqli_query($con,$sqlInserir);
          if($rescadastrar):
                   print"<div id='cxmodalcadastradopccnscomsucesso'>";
