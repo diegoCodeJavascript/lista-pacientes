@@ -1,0 +1,37 @@
+body{
+	background-color:#363636;
+
+}
+#logoconsultpresenca{
+	position: absolute;top: 51px;left: 778px; background-color: white;
+	border-radius: 22px;width: 150px; height: 150px;
+}
+#consultpresenca{
+	position: absolute;top: 255px;font-size: 25px;
+	left: 488px;color: white;
+}
+#cxformpesquisarcomplis{
+	position: absolute;top: 322px;left: 455px;
+	width: 788px; background-color: #DCDCDC;
+}
+th{
+	font-size: 22px;
+}
+input{width: 211px;}
+#btnpesreg{position: absolute;top: 88px;
+ font-size: 20px;left: 544px;
+}
+#cxresultadocomparecimentos{
+	position: absolute;top: 499px; 
+	left: 455px;width: 849px;
+	height: 200px;overflow-y: auto;
+}
+#tabconsultachegada{
+	border:3px double;background-color:#DCDCDC;
+}
+#cedchegada{
+	border: 3px double;
+}
+#linresultchegada:nth-child(even){
+	background-color:#8B0000; color: white;
+}
