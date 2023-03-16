@@ -1,0 +1,37 @@
+#dadoscolaborador{
+	position: absolute;top: 55px;left: 455px;
+	font-size: 28px;
+}
+#formcadastrocolaborador{
+	position: absolute;top: 155px;left: 420px;
+
+}
+th{
+	font-size: 22px;
+}
+input{
+	width: 255px;
+}
+#btnatualizar{
+	position: absolute;top: 111px;
+	font-size: 21px;
+}
+#cxnotificar{
+	position: absolute;top: 85px;left: 588px;
+	width: 425px;height: 150px;background-color:#DCDCDC;
+}
+#iluscxnotifc{
+	position: absolute;top: 25px;left: 45px;width: 80px;
+}
+#tlcxnotifc{
+	position: absolute;top: 21px;left: 155px;
+}
+#subtitulontfc{
+	position: absolute;top: 49px;left: 158px;
+	color: red;
+
+}
+
+#btnfecharmd{
+	position: absolute;top: 35px;left: 355px;  width: 70px;
+}
