@@ -1,7 +1,7 @@
 # sistema-online-lista-pacientes
 Lista pacientes, é um sistema web online, Objetivo, de o profissional marcador/ou recepcionista lançar no sistema a presença do paciente.
 
-Sistema desenvolvido por Diego LAMANA - LICENÇA MIT Autorizo uso deste projeto para uso comercial e não comercial,
+Sistema desenvolvido por Diego Lamana - LICENÇA MIT Autorizo uso deste projeto para uso comercial e não comercial,
 deste que retribuia crédito na tela de login inicial, e em modo documentário do  html da tela de login.
 
 ==================================================================
