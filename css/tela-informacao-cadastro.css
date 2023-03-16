@@ -1,0 +1,27 @@
+body{
+	background-color:#363636;
+}
+#telainformacao{
+	position: absolute;top: 111px;
+	left: 411px;width: 544px;height: 322px; border: 3px solid;
+    background-color:#DCDCDC;
+}
+#imilustraratencao{
+	position: absolute;top: 40px;
+	left: 50px;width: 80px;
+}
+#tituloatencao{
+	position: absolute;top: 11px;
+	left: 230px; font-size: 32px;
+}
+
+#msgdetalhes{
+	position: absolute;top: 111px;
+	font-size: 30px;left:100px;
+}
+#btntelalogin{
+	position: absolute;top: 222px;font-size: 22px;left: 100px;
+}
+#btnmodificar{
+	position: absolute;top: 222px; font-size: 22px; left: 288px;
+}
