@@ -1,0 +1,64 @@
+#cxcaixamenu{
+	position: absolute;top: -1px;left:-1px;border-top-right-radius: 55px;
+	width: 399px; height:199%;background:#DCDCDC;
+}
+#txtopcsystem{
+	font-size: 22px;
+}
+#btnpainel{
+	font-size: 25px; border-radius: 21px;position: relative;width: 100%;
+  margin: 2px;
+}
+#btnpainel:hover{
+	font-size: 25px; border-radius: 21px;position: relative;width: 100%;
+  margin: 2px; background-color: #808080;color: yellow;
+}
+
+#btncadastrarpaciente{
+  font-size: 25px; border-radius: 21px;position: relative;width: 100%;
+  margin: 2px;
+}
+
+#btncadastrarpaciente:hover{
+  font-size: 25px; border-radius: 21px;position: relative;width: 100%;
+  margin: 2px;background-color: #808080;color: yellow;
+}
+
+#btnexcluirpaciente{
+	font-size: 25px; border-radius: 21px;position: relative;width: 100%;
+ margin: 2px;
+}
+
+#btnexcluirpaciente:hover{
+	font-size: 25px; border-radius: 21px;position: relative;width: 100%;
+ margin: 2px;background-color: #808080;color: yellow;
+}
+
+#btnlancarcomparecimento{
+	font-size: 25px; border-radius: 21px;position: relative;width: 100%;
+	 margin: 2px;
+}
+#btnlancarcomparecimento:hover{
+	font-size: 25px; border-radius: 21px;position: relative;width: 100%;
+	 margin: 2px;background-color: #808080;color: yellow;
+}
+
+#btnexcluircomparecimento{
+	font-size: 25px; border-radius: 21px;position: relative;width: 100%;
+	 margin: 2px;
+}
+
+#btnexcluircomparecimento:hover{
+	font-size: 25px; border-radius: 21px;position: relative;width: 100%;
+	 margin: 2px;background-color: #808080;color: yellow;
+}
+
+#consultarpacientes{
+	font-size: 25px; border-radius: 21px;position: relative;width: 100%;
+	 margin: 2px;
+}
+
+#consultarpacientes:hover{
+	font-size: 25px; border-radius: 21px;position: relative;width: 100%;
+	 margin: 2px;background-color: #808080;color: yellow;
+}
