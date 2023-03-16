@@ -1,0 +1,60 @@
+body{
+  background-color:#363636;
+}
+#logotelacadastropaciente{
+	position: absolute;top: 51px;left: 778px; background-color: white;
+	border-radius: 22px;width: 150px; height: 150px;
+}
+
+#titulocdp{
+	position: absolute;top: 200px;font-size: 35px;
+	left: 405px;color: white;
+}
+#cxformcadastropaciente{
+	position: absolute;top: 322px;left: 455px;
+	background-color: #DCDCDC;border-top-left-radius: 21px;
+}
+th{font-size: 20px;}
+input{width: 244px;}
+#btngravarcadastro{
+	position: absolute;top: 170px;left: 666px;
+	font-size: 22px;
+}
+
+/*Modal aviso cadastro existente */
+#cxmodalcadastroexistente{
+	position: absolute;top: 255px;left: 499px;
+	width: 566px; height: 250px; background-color:#DCDCDC;
+}
+#iluscadastroalert{position: relative;top: 55px;
+  width: 88px; height: 88px; left: 55px;
+}
+#informodalcns{
+	position: relative;top: -28px;font-size: 25px;
+	left: 179px;
+}
+#btnpreenchernvm{
+	position: relative;top: -25px;
+	left: 211px; font-size: 21px;
+}
+#btnfcmdpcnsexiste{
+	position: absolute;top: 15px; width: 80px;left: 455px;
+}
+
+/*Modal aviso cadastro existente */
+
+/*Modal cadastrado */
+#cxmodalcadastradopccnscomsucesso{
+	position: absolute;top: 255px;left: 499px;
+	width: 566px; height: 250px; background-color:#DCDCDC;
+}
+#btnfctelcdpndsc{
+	position: absolute;top: 15px; width: 80px;left: 455px;
+}
+#iluspstcnvs{position: relative;top: 55px;
+  width: 88px; height: 88px; left: 55px;
+}
+#infrcadastradook{position: relative;top: -28px;font-size: 25px;
+	left: 179px;
+}
+/*Modal cadastrado */
