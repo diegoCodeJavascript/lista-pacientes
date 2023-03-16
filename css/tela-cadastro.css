@@ -1,0 +1,87 @@
+#logotelacadastro{
+	width: 250px; height: 250px;
+	position: absolute;top: 122px;left: 99px;
+}
+#titulofomr{
+	position: absolute;top: 152px;left: 411px;
+}
+#cxfomrconta{
+	position: absolute;top: 206px;
+	left: 455px;width: 666px; background: #363636;
+	height: 400px; border-top-left-radius: 89px;
+  
+}
+#labelnome{
+	font-size: 30px;left: 55px; position: absolute;
+	color: white;
+}
+#cmpnome{
+	font-size: 22px;border-radius: 22px;
+	position: absolute;left: 145px;top: 10px;width: 386px;
+}
+
+#cmpnome:focus{
+	font-size: 22px;border-radius: 22px;
+	position: absolute;left: 145px;top: 10px;width: 386px;
+	background-color: #B0E0E6;
+}
+#labelsobrenome{
+	font-size: 30px;position: absolute;top:45px;  left: 55px; 
+	color: white; 
+}
+#campsobrenome{
+font-size: 22px;border-radius: 22px;
+	position: absolute;left: 210px;top: 55px;width: 386px;
+}
+#campsobrenome:focus{
+font-size: 22px;border-radius: 22px;
+	position: absolute;left: 210px;top: 55px;width: 386px;
+	background-color: #B0E0E6;
+}
+#labeldoc{
+	position:absolute;top:99px;font-size: 30px;color: white;
+	left: 55px;
+}
+#campdoc{
+	font-size: 22px;border-radius: 22px;position: absolute;top: 99px;left: 138px;
+	width: 386px;
+}
+#campdoc:focus{
+	font-size: 22px;border-radius: 22px;position: absolute;top: 99px;left: 138px;
+	width: 386px;background-color:#B0E0E6;
+}
+
+#labelemail{
+	font-size: 30px; position: absolute;top: 145px;left: 55px;
+	color: white;
+}
+#campemail{
+	font-size: 22px;border-radius: 22px;position: absolute;top: 145px;
+	left: 160px; width: 386px;
+	
+}
+#campemail:focus{
+	font-size: 22px;border-radius: 22px;position: absolute;top: 145px;
+	left: 160px; width: 386px;background-color:#B0E0E6;
+	
+}
+#labelsenha{
+	font-size: 30px;color: white; position: absolute;top: 198px;left: 55px;
+	
+}
+#campsenha{
+	font-size: 22px;border-radius: 22px;position: absolute;top: 198px;
+	left: 160px;width:386px;
+}
+#campsenha:focus{
+	font-size: 22px;border-radius: 22px;position: absolute;top: 198px;
+	left: 160px;width:386px;background-color:#B0E0E6;
+}
+
+
+#btncriarconta{
+	position: absolute;top:259px;font-size: 23px;left: 121px;
+}
+#btnvoltar{
+	position: absolute;top: 259px; font-size: 23px;left: 288px;
+}
